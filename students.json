@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "name": "Curtis",
+    "grades": [
+        "A",
+        "F",
+        "F"
+    ]
+},
+{
+    "id": 2,
+    "name": "Derek",
+    "grades": [
+        "B",
+        "B",
+        "F"
+    ]
+}
+]
