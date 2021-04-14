@@ -11,4 +11,8 @@ app.get('/students', (request, response) => {
     }
 })
 
+app.get('/students/:studentId', (request, response) => {
+    response.send(students.filter(student => student.id == request.params.studentId));
+});
+
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
